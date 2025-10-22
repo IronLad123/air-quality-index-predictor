@@ -6,4 +6,5 @@ This repository contains a Streamlit web application for predicting air quality 
 
 Author: Om Srivastava  
 Email: srivastavaom078@gmail.com
+
 omair-quality-index-predictor-6rfbm3vcdckj3pw3csfs9j.stramlit.app
