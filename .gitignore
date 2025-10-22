@@ -115,4 +115,7 @@ venv.bak/
 
 # pickle files
 *.pkl
+!le_city.pkl
+!le_aqi_bucket.pkl
+
 )
