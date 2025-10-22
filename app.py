@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import os
 from datetime import datetime
+import plotly.graph_objects as go
+import plotly.express as px
 
 st.set_page_config(
     page_title="Air Quality Index Predictor",
@@ -34,7 +36,7 @@ except Exception as e:
     st.error(f"Error loading models: {e}")
     st.stop()
 
-# AQI category styling
+# AQI category styling - map numeric predictions to actual categories
 aqi_styles = {
     'Good': {'color': '#00e400', 'emoji': '😊', 'description': 'Excellent air quality'},
     'Satisfactory': {'color': '#87e887', 'emoji': '🙂', 'description': 'Good air quality'},
